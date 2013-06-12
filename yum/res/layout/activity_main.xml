@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/info"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="@string/empty" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#30004859"
+        android:gravity="center"
+        android:hint="@string/edit_message"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="@string/empty" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#30004859"
+        android:gravity="center"
+        android:hint="@string/edit_message1"
+        android:singleLine="true" 
+		android:inputType="textPassword" >
+
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="@string/empty" />
+
+    <Button
+        android:id="@+id/bSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+ 
+        android:text="@string/button_send" />
+
+</LinearLayout>

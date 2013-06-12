@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YumYum</string>
+    <string name="edit_message">UID</string>
+    <string name="edit_message1">Password</string>
+    <string name="button_send">Order food</string>
+    <string name="button_order">Order</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">yumYum</string>
+    <string name="title_menu">Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="info">Authentication</string>
+	<string name="empty"> </string>
+	<string name="cantine">Choose Cantine </string>
+	<string name="food">Choose Food</string>
+	<string name="remember">Remember me</string>
+	<string name="hkd">(HKD)</string>
+	<string name="resa">Thank you!</string>
+	<string name="success">Your command was successfully submitted to the server!</string>
+	<string name="time">Your food will be ready at:</string>
+	
+</resources>

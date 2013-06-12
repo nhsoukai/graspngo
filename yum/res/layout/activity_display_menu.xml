@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+     <TextView 
+         android:textIsSelectable="true"
+         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+         android:textStyle="bold"
+        android:text="@string/food" />
+    <ListView
+        android:id="@+id/foodlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true" 
+        android:listSelector="@drawable/textview_selector"
+        android:choiceMode="singleChoice"
+		android:drawSelectorOnTop="true"/>
+    
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:onClick="getPrice"
+        android:text="@string/button_order" />
+
+
+</LinearLayout>
