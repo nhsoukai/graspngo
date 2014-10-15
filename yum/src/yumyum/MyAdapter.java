@@ -54,9 +54,12 @@ public class MyAdapter extends ArrayAdapter<Food> {
 						}
 					});
 			convertView.setTag(holder);
-			convertView.setTag(R.id.name);
-			convertView.setTag(R.id.price);
-			convertView.setTag(R.id.checkBox1);
+			holder.name.parent = null;
+			holder.price.parent = null;
+			holder.check.parent = null;
+			convertView.setTag(R.id.name, holder.name);
+			convertView.setTag(R.id.price, holder.price);
+			convertView.setTag(R.id.checkBox1, holder.check);
 		} else {
 			holder = (ViewHolder) convertView.getTag();
 		}
