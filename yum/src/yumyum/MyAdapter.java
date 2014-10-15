@@ -56,10 +56,10 @@ public class MyAdapter extends ArrayAdapter<Food> {
 			convertView.setTag(holder);
 			holder.name.parent = null;
 			holder.price.parent = null;
-			holder.check.parent = null;
+			holder.chk.parent = null;
 			convertView.setTag(R.id.name, holder.name);
 			convertView.setTag(R.id.price, holder.price);
-			convertView.setTag(R.id.checkBox1, holder.check);
+			convertView.setTag(R.id.checkBox1, holder.chk);
 		} else {
 			holder = (ViewHolder) convertView.getTag();
 		}
